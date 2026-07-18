@@ -1,5 +1,5 @@
 {% set name = "pythermo" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.3" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pythermo-{{ version }}.tar.gz
-  sha256: 3cf9b0fd51d8e949ad44ca0ce0c09892bdcc3dbeea37a6a9ce476318e472a9c7
+  sha256: 2657684fddf8e6e5afd5e570abd2d87d7de6a18b92ebf380e94772a6b42e7984
 
 build:
   noarch: python
